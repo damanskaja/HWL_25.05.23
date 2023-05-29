@@ -5,3 +5,5 @@ do
     echo "$(date +"%H:%M:%S") $(ps -ef | wc -l)"
     sleep 7
 done
+
+cat /proc/cpuinfo > processor_info.txt
