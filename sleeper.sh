@@ -7,3 +7,5 @@ do
 done
 
 cat /proc/cpuinfo > processor_info.txt
+
+cat /etc/os-release | grep "NAME=" > os_info.txt
